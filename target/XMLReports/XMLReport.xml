@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.404" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Edit table" name="Editing of customer table row by country - Example #1.1" time="9.378">
+<system-out><![CDATA[
+Given Im on table page......................................................passed
+When I find a customer from USA.............................................passed
+And click on edit button of the corresponding row...........................passed
+And I edit customer informations............................................passed
+Then the customer information changes for the new values....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Edit table" name="Editing of customer table row by country - Example #1.2" time="8.943">
+<system-out><![CDATA[
+Given Im on table page......................................................passed
+When I find a customer from France..........................................passed
+And click on edit button of the corresponding row...........................passed
+And I edit customer informations............................................passed
+Then the customer information changes for the new values....................passed
+]]></system-out>
+</testcase>
+</testsuite>
